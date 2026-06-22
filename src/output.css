@@ -596,6 +596,12 @@
   .bg-\[\#22c55e\] {
     background-color: #22c55e;
   }
+  .bg-\[\#F4FBF8\] {
+    background-color: #F4FBF8;
+  }
+  .bg-\[\#eafbf4\] {
+    background-color: #eafbf4;
+  }
   .bg-\[\#eef9f5\] {
     background-color: #eef9f5;
   }
@@ -965,6 +971,11 @@
       outline-style: none;
     }
   }
+  .sm\:w-auto {
+    @media (width >= 40rem) {
+      width: auto;
+    }
+  }
   .sm\:max-w-md {
     @media (width >= 40rem) {
       max-width: var(--container-md);
@@ -1110,6 +1121,11 @@
       max-width: var(--container-md);
     }
   }
+  .md\:max-w-xl {
+    @media (width >= 48rem) {
+      max-width: var(--container-xl);
+    }
+  }
   .md\:grid-cols-2 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1138,6 +1154,11 @@
   .md\:items-end {
     @media (width >= 48rem) {
       align-items: flex-end;
+    }
+  }
+  .md\:items-start {
+    @media (width >= 48rem) {
+      align-items: flex-start;
     }
   }
   .md\:justify-start {
