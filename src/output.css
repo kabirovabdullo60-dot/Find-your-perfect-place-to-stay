@@ -1436,11 +1436,6 @@
       padding: calc(var(--spacing) * 2.5);
     }
   }
-  .md\:p-6 {
-    @media (width >= 48rem) {
-      padding: calc(var(--spacing) * 6);
-    }
-  }
   .md\:p-7 {
     @media (width >= 48rem) {
       padding: calc(var(--spacing) * 7);
